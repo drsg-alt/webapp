@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KEK</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <style>
+        @keyframes kek {
+            0% {
+                background: #B50018;
+            }
+
+            20% {
+                background: #FFF64F;
+            }
+
+            40% {
+                background: #FF3842;
+            }
+
+            60% {
+                background: #008DDF;
+            }
+
+            80% {
+                background: #F62DAE;
+            }
+
+            100% {
+                background: #B50018;
+            }
+        }
+
+        .bg {
+            animation: kek 1s infinite;
+
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            overflow: hidden;
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            max-width: 80vw;
+            height: 100vh;
+        }
+
+        .text {
+            color: white;
+
+            display: flex;
+            align-items: center;
+
+            font-weight: bold;
+            font-size: 20vw;
+            font-family: 'Roboto Mono', monospace;
+
+            max-height: 80vh;
+        }
+    </style>
+</head>
+
+<body class="bg">
+    <div class="content">
+        <span class="text">
+            ДУРКА
+        </span>
+    </div>
+</body>
+
+</html>
